@@ -41,12 +41,6 @@ li {
 
 .splash-container {
     color: white;
-    // background: rgba(127, 64, 127, 1);
-    // background: #673167;
-    // background: #6ed3cf;
-    //background: #efefef;
-    // background: #eee;
-    // background: #497194;
     background: transparent url('../img/bg.png') repeat-x;
 
     a {
@@ -97,8 +91,10 @@ strong {
     margin: 0 auto;
     text-align: center;
 
-    .l-box { margin: 0 auto; }
+    
 }
+
+.l-box { margin: 0 auto; }
 
 .book-details {
     border-top: 1px solid #ddd;
@@ -123,4 +119,26 @@ strong {
     .l-box {
         padding: 1em;
     }
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    background: #8073A8;
+    color: white;
+    text-align: center;
+}
+#mc_embed_signup {
+    .button {
+        &:hover {
+            background-color: #e1a6c4;
+        }
+        background-color: #D581AC;
+    }
+}
+
+#mc_embed_signup_scroll label {
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 200;
 }

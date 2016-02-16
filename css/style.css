@@ -64,8 +64,9 @@ strong {
   max-width: 600px;
   margin: 0 auto;
   text-align: center; }
-  .splash .l-box {
-    margin: 0 auto; }
+
+.l-box {
+  margin: 0 auto; }
 
 .book-details {
   border-top: 1px solid #ddd; }
@@ -85,3 +86,20 @@ strong {
 
 .pure-g .l-box {
   padding: 1em; }
+
+footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  background: #8073A8;
+  color: white;
+  text-align: center; }
+
+#mc_embed_signup .button {
+  background-color: #D581AC; }
+  #mc_embed_signup .button:hover {
+    background-color: #e1a6c4; }
+
+#mc_embed_signup_scroll label {
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 200; }
