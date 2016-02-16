@@ -1,0 +1,19 @@
+{
+  "name": "lumenapibook.com",
+  "version": "1.0.0",
+  "description": "Website for lumenapibook.com",
+  "private": true,
+  "author": "Paul Redmond",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "browser-sync": "~2.11.1",
+    "gulp": "~3.9.1",
+    "gulp-concat": "~2.6.0",
+    "gulp-load-plugins": "~1.2.0",
+    "gulp-sass": "~2.2.0",
+    "node-sass": "~3.4.2"
+  },
+  "dependencies": {
+    "purecss": "~0.6.0"
+  }
+}

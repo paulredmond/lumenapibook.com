@@ -1,0 +1,116 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+p {
+    line-height: 1.75em;
+}
+
+h1, h2, h3 {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #0B7A9E;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px black dotted;
+}
+
+ul {
+
+}
+li {
+    line-height: 1.75em;
+}
+
+.note {
+    font-size: 0.9em;
+}
+
+.splash-container {
+    color: white;
+    // background: rgba(127, 64, 127, 1);
+    // background: #673167;
+    // background: #6ed3cf;
+    //background: #efefef;
+    // background: #eee;
+    // background: #497194;
+    background: transparent url('/img/bg.png') repeat-x;
+
+    a {
+        color: white;
+        border-color: #efefef;
+    }
+    strong {
+        background: none;
+        border-bottom: none;
+        padding: 5px;
+    }
+
+    h1, h2, h3 {
+        color: white;
+    }
+
+    p {
+        line-height: 2em;
+        font-weight: 300;
+    }
+    
+    .headliner {
+        text-align: center;
+    }
+
+    .book-cover {
+        padding-top: 80px;
+    }
+
+    .button-primary {
+        color: white;
+        background: #D581AC;
+    }
+}
+
+strong {
+    background: #FFFACD;
+    border-bottom: 1px solid #FFFF00;
+}
+
+.splash {
+    //padding: 2em 5em 0;
+    max-width: 1250px;
+    margin: auto;
+    .l-box { margin: 0 auto; }
+}
+
+.book-details {
+    border-top: 1px solid #ddd;
+    .l-box { margin: 0 auto; }
+}
+
+.button-primary {
+    text-transform: uppercase;
+    // font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: .07em;
+    // background: rgb(116, 56, 116);
+    background: #0B7A9E;
+    padding: .75em 3em;
+    border: none;
+    border-radius: 5px;
+}
+
+.pure-g {
+    .l-box {
+        padding: 1em;
+    }
+}
