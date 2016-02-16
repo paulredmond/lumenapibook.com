@@ -45,19 +45,25 @@ li {
     font-weight: 300; }
   .splash-container .headliner {
     text-align: center; }
-  .splash-container .book-cover {
-    padding-top: 80px; }
   .splash-container .button-primary {
     color: white;
     background: #D581AC; }
+
+.book-cover {
+  margin: 0 0 0 1em;
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+  float: right; }
 
 strong {
   background: #FFFACD;
   border-bottom: 1px solid #FFFF00; }
 
 .splash {
-  max-width: 1250px;
-  margin: auto; }
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center; }
   .splash .l-box {
     margin: 0 auto; }
 

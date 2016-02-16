@@ -72,14 +72,19 @@ li {
         text-align: center;
     }
 
-    .book-cover {
-        padding-top: 80px;
-    }
-
     .button-primary {
         color: white;
         background: #D581AC;
     }
+}
+
+
+.book-cover {
+    margin: 0 0 0 1em;
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    float: right;
 }
 
 strong {
@@ -88,9 +93,10 @@ strong {
 }
 
 .splash {
-    //padding: 2em 5em 0;
-    max-width: 1250px;
-    margin: auto;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
     .l-box { margin: 0 auto; }
 }
 
