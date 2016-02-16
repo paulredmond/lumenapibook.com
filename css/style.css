@@ -19,6 +19,9 @@ a {
   text-decoration: none;
   border-bottom: 1px black dotted; }
 
+a.img {
+  border-bottom: none; }
+
 li {
   line-height: 1.75em; }
 
@@ -27,7 +30,7 @@ li {
 
 .splash-container {
   color: white;
-  background: transparent url("/img/bg.png") repeat-x; }
+  background: transparent url("../img/bg.png") repeat-x; }
   .splash-container a {
     color: white;
     border-color: #efefef; }

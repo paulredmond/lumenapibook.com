@@ -24,6 +24,10 @@ a {
     border-bottom: 1px black dotted;
 }
 
+a.img {
+    border-bottom: none;
+}
+
 ul {
 
 }
@@ -43,7 +47,7 @@ li {
     //background: #efefef;
     // background: #eee;
     // background: #497194;
-    background: transparent url('/img/bg.png') repeat-x;
+    background: transparent url('../img/bg.png') repeat-x;
 
     a {
         color: white;
