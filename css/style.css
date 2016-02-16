@@ -50,9 +50,9 @@ li {
     background: #D581AC; }
 
 .book-cover {
-  margin: 0 0 0 1em;
+  margin: 0 0 1em 1em;
   border: 1px solid #ccc;
-  padding: 8px;
+  padding: 5px;
   text-align: center;
   float: right; }
 
